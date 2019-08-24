@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="392.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.has.apps.windows.ui.LoginController">
+   <children>
+      <Button layoutX="140.0" layoutY="222.0" mnemonicParsing="false" onAction="#login" text="Login with Google" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+{
+"rooms":
+	[ 
+		{"id":1,"display_name":"Living Room","devices_id":[1, 4, 5]},
+		{"id":2,"display_name":"Bed Room","devices_id":[2, 3]}
+	],
+"devices":
+	[
+		{"id":1,"device_name":"Living Room Heater","device_type":"HeaterDevice","pins":[]},
+		{"id":2,"device_name":"Bed Room Light","device_type":"LightDevice","pins":[1]},
+		{"id":3,"device_name":"Living Room Light","device_type":"LightDevice","pins":[2]},
+		{"id":4,"device_name":"Living Room Detector","device_type":"UltrasonicSensorDevice","pins":[3]},
+		{"id":5,"device_name":"Living Room Sensor","device_type":"LightSensorDevice","pins":[4]}
+	]
+}
