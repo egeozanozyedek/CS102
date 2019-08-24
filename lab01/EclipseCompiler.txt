@@ -1,0 +1,797 @@
+5 Feb 2018 16:45:15 GMT: Log 'EclipseCompiler.txt' opened: 5 Feb 2018 16:45:15 GMT with name C:\Users\EgeOzan\Desktop\lab01\EclipseCompiler.txt
+5 Feb 2018 16:47:46 GMT: diagnostics = javax.tools.DiagnosticCollector@7c170f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@391eb7
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:47:46 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1367d2a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:47:46 GMT: Compiler call returned
+5 Feb 2018 16:47:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@602a1b
+5 Feb 2018 16:47:46 GMT:  Kind = WARNING
+5 Feb 2018 16:47:46 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 16:47:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ad7db2
+5 Feb 2018 16:47:46 GMT:  Kind = WARNING
+5 Feb 2018 16:47:46 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 16:47:55 GMT: diagnostics = javax.tools.DiagnosticCollector@da8647
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@9cf90
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:47:55 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b2443d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:47:55 GMT: Compiler call returned
+5 Feb 2018 16:47:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3f1fa0
+5 Feb 2018 16:47:55 GMT:  Kind = WARNING
+5 Feb 2018 16:47:55 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 16:47:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@20c1e1
+5 Feb 2018 16:47:55 GMT:  Kind = WARNING
+5 Feb 2018 16:47:55 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 16:49:13 GMT: diagnostics = javax.tools.DiagnosticCollector@769361
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@15be94d
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:49:13 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a1848e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:49:13 GMT: Compiler call returned
+5 Feb 2018 16:49:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b1b487
+5 Feb 2018 16:49:13 GMT:  Kind = ERROR
+5 Feb 2018 16:49:13 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 42 ColNo = 3 Msg = 'Syntax error on token "}", { expected after this token'
+5 Feb 2018 16:49:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ecc6c2
+5 Feb 2018 16:49:13 GMT:  Kind = ERROR
+5 Feb 2018 16:49:13 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 44 ColNo = 17 Msg = 'Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration'
+5 Feb 2018 16:49:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@128ab33
+5 Feb 2018 16:49:13 GMT:  Kind = ERROR
+5 Feb 2018 16:49:13 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 44 ColNo = 17 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+5 Feb 2018 16:49:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15dec4c
+5 Feb 2018 16:49:13 GMT:  Kind = ERROR
+5 Feb 2018 16:49:13 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 44 ColNo = 36 Msg = 'Syntax error on token "{", ; expected'
+5 Feb 2018 16:49:13 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11e706c
+5 Feb 2018 16:49:13 GMT:  Kind = ERROR
+5 Feb 2018 16:49:13 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 41 ColNo = 5 Msg = 'Syntax error, insert "while ( Expression ) ;" to complete DoStatement'
+5 Feb 2018 16:49:33 GMT: diagnostics = javax.tools.DiagnosticCollector@15bee1c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1fde61d
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:49:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14fdc80' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:49:33 GMT: Compiler call returned
+5 Feb 2018 16:49:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ee841
+5 Feb 2018 16:49:33 GMT:  Kind = ERROR
+5 Feb 2018 16:49:33 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 42 ColNo = 30 Msg = 'Syntax error, insert "}" to complete MethodBody'
+5 Feb 2018 16:49:53 GMT: diagnostics = javax.tools.DiagnosticCollector@1d34782
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@52d6f7
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:49:53 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a6d616' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:49:53 GMT: Compiler call returned
+5 Feb 2018 16:49:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1788432
+5 Feb 2018 16:49:53 GMT:  Kind = ERROR
+5 Feb 2018 16:49:53 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 44 ColNo = 19 Msg = 'Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration'
+5 Feb 2018 16:49:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dddaec
+5 Feb 2018 16:49:53 GMT:  Kind = ERROR
+5 Feb 2018 16:49:53 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 44 ColNo = 19 Msg = 'Syntax error, insert ";" to complete LocalVariableDeclarationStatement'
+5 Feb 2018 16:49:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15cf3c7
+5 Feb 2018 16:49:53 GMT:  Kind = ERROR
+5 Feb 2018 16:49:53 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 44 ColNo = 36 Msg = 'Syntax error, insert ";" to complete Statement'
+5 Feb 2018 16:50:03 GMT: diagnostics = javax.tools.DiagnosticCollector@3b054d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@a5bcde
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:50:03 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ea078e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:50:03 GMT: Compiler call returned
+5 Feb 2018 16:50:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@63222d
+5 Feb 2018 16:50:03 GMT:  Kind = ERROR
+5 Feb 2018 16:50:03 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 42 ColNo = 30 Msg = 'Syntax error, insert "}" to complete MethodBody'
+5 Feb 2018 16:50:18 GMT: diagnostics = javax.tools.DiagnosticCollector@fdbaaa
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@8c685e
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:50:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1276ba' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:50:18 GMT: Compiler call returned
+5 Feb 2018 16:50:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fc4cc3
+5 Feb 2018 16:50:18 GMT:  Kind = ERROR
+5 Feb 2018 16:50:18 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 21 ColNo = 11 Msg = 'The local variable userInput may not have been initialized'
+5 Feb 2018 16:50:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a5609f
+5 Feb 2018 16:50:18 GMT:  Kind = ERROR
+5 Feb 2018 16:50:18 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 28 ColNo = 16 Msg = 'The local variable userInput may not have been initialized'
+5 Feb 2018 16:50:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10ac0f8
+5 Feb 2018 16:50:18 GMT:  Kind = ERROR
+5 Feb 2018 16:50:18 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 30 ColNo = 16 Msg = 'The local variable userInput may not have been initialized'
+5 Feb 2018 16:50:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@cea617
+5 Feb 2018 16:50:18 GMT:  Kind = ERROR
+5 Feb 2018 16:50:18 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 32 ColNo = 16 Msg = 'The local variable userInput may not have been initialized'
+5 Feb 2018 16:50:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10d7bd9
+5 Feb 2018 16:50:18 GMT:  Kind = ERROR
+5 Feb 2018 16:50:18 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 34 ColNo = 16 Msg = 'The local variable userInput may not have been initialized'
+5 Feb 2018 16:50:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13e5abf
+5 Feb 2018 16:50:18 GMT:  Kind = ERROR
+5 Feb 2018 16:50:18 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 36 ColNo = 16 Msg = 'The local variable userInput may not have been initialized'
+5 Feb 2018 16:50:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@525d60
+5 Feb 2018 16:50:18 GMT:  Kind = ERROR
+5 Feb 2018 16:50:18 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 38 ColNo = 16 Msg = 'The local variable userInput may not have been initialized'
+5 Feb 2018 16:50:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@143bb63
+5 Feb 2018 16:50:18 GMT:  Kind = ERROR
+5 Feb 2018 16:50:18 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 40 ColNo = 16 Msg = 'The local variable userInput may not have been initialized'
+5 Feb 2018 16:50:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@138c0e1
+5 Feb 2018 16:50:18 GMT:  Kind = ERROR
+5 Feb 2018 16:50:18 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 42 ColNo = 14 Msg = 'The local variable userInput may not have been initialized'
+5 Feb 2018 16:50:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@70871b
+5 Feb 2018 16:50:18 GMT:  Kind = WARNING
+5 Feb 2018 16:50:18 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 16:50:33 GMT: diagnostics = javax.tools.DiagnosticCollector@19ba8d6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@a9a786
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:50:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ae4b28' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:50:33 GMT: Compiler call returned
+5 Feb 2018 16:50:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@48a826
+5 Feb 2018 16:50:33 GMT:  Kind = WARNING
+5 Feb 2018 16:50:33 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 16:50:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9d43c7
+5 Feb 2018 16:50:33 GMT:  Kind = WARNING
+5 Feb 2018 16:50:33 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 16:50:40 GMT: diagnostics = javax.tools.DiagnosticCollector@ee3364
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@12ab288
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:50:40 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b0a16f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:50:40 GMT: Compiler call returned
+5 Feb 2018 16:50:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d6908
+5 Feb 2018 16:50:40 GMT:  Kind = WARNING
+5 Feb 2018 16:50:40 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 16:50:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@115090e
+5 Feb 2018 16:50:40 GMT:  Kind = WARNING
+5 Feb 2018 16:50:40 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 16:50:53 GMT: diagnostics = javax.tools.DiagnosticCollector@175f099
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c556b7
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:50:53 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1312a87' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:50:53 GMT: Compiler call returned
+5 Feb 2018 16:50:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@50297c
+5 Feb 2018 16:50:53 GMT:  Kind = WARNING
+5 Feb 2018 16:50:53 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 16:50:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14f46d3
+5 Feb 2018 16:50:53 GMT:  Kind = WARNING
+5 Feb 2018 16:50:53 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 16:50:55 GMT: diagnostics = javax.tools.DiagnosticCollector@120049
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1c3198
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:50:55 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@213490' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:50:55 GMT: Compiler call returned
+5 Feb 2018 16:50:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a11c2b
+5 Feb 2018 16:50:55 GMT:  Kind = WARNING
+5 Feb 2018 16:50:55 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 16:50:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10e7087
+5 Feb 2018 16:50:55 GMT:  Kind = WARNING
+5 Feb 2018 16:50:55 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 16:50:55 GMT: diagnostics = javax.tools.DiagnosticCollector@16172b3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@668423
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:50:55 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@588b58' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:50:55 GMT: Compiler call returned
+5 Feb 2018 16:50:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13350b1
+5 Feb 2018 16:50:55 GMT:  Kind = WARNING
+5 Feb 2018 16:50:55 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 16:50:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c94632
+5 Feb 2018 16:50:55 GMT:  Kind = WARNING
+5 Feb 2018 16:50:55 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 16:57:52 GMT: diagnostics = javax.tools.DiagnosticCollector@27a5eb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1d296cb
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 16:57:52 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@181a9c4' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 16:57:53 GMT: Compiler call returned
+5 Feb 2018 16:57:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1292e12
+5 Feb 2018 16:57:53 GMT:  Kind = ERROR
+5 Feb 2018 16:57:53 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 28 ColNo = 30 Msg = 'Syntax error on token ")", EmptyStatement expected after this token'
+5 Feb 2018 17:07:44 GMT: diagnostics = javax.tools.DiagnosticCollector@15bc0ab
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@153aef7
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 17:07:44 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@fb3bf9' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 17:07:45 GMT: Compiler call returned
+5 Feb 2018 17:07:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@93f2b1
+5 Feb 2018 17:07:45 GMT:  Kind = ERROR
+5 Feb 2018 17:07:45 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 28 ColNo = 30 Msg = 'Syntax error on token ")", EmptyStatement expected after this token'
+5 Feb 2018 19:27:13 GMT: Log 'EclipseCompiler.txt' opened: 5 Feb 2018 19:27:13 GMT with name C:\Users\EgeOzan\Desktop\lab01\EclipseCompiler.txt
+5 Feb 2018 19:42:32 GMT: diagnostics = javax.tools.DiagnosticCollector@5c9f74
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b8ace7
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java, C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java]
+5 Feb 2018 19:42:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17438f0' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:42:33 GMT: Compiler call returned
+5 Feb 2018 19:42:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1368b2e
+5 Feb 2018 19:42:33 GMT:  Kind = ERROR
+5 Feb 2018 19:42:33 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 28 ColNo = 30 Msg = 'Syntax error on token ")", EmptyStatement expected after this token'
+5 Feb 2018 19:42:41 GMT: diagnostics = javax.tools.DiagnosticCollector@13a9917
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ca1d5e
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:42:41 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1139a23' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:42:41 GMT: Compiler call returned
+5 Feb 2018 19:42:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d50ddd
+5 Feb 2018 19:42:41 GMT:  Kind = WARNING
+5 Feb 2018 19:42:41 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:42:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@978ae0
+5 Feb 2018 19:42:41 GMT:  Kind = WARNING
+5 Feb 2018 19:42:41 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 19:42:51 GMT: diagnostics = javax.tools.DiagnosticCollector@1adf4ad
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1648c79
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:42:51 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1de25d2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:42:51 GMT: Compiler call returned
+5 Feb 2018 19:42:51 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@34df1d
+5 Feb 2018 19:42:51 GMT:  Kind = WARNING
+5 Feb 2018 19:42:51 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:42:51 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e55874
+5 Feb 2018 19:42:51 GMT:  Kind = WARNING
+5 Feb 2018 19:42:51 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 19:43:12 GMT: diagnostics = javax.tools.DiagnosticCollector@127c27e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@3e9f83
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:43:12 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@88e5db' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:43:12 GMT: Compiler call returned
+5 Feb 2018 19:43:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f7f5b2
+5 Feb 2018 19:43:12 GMT:  Kind = ERROR
+5 Feb 2018 19:43:12 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 48 ColNo = 13 Msg = 'Syntax error on token(s), misplaced construct(s)'
+5 Feb 2018 19:43:12 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@36bb20
+5 Feb 2018 19:43:12 GMT:  Kind = ERROR
+5 Feb 2018 19:43:12 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 48 ColNo = 22 Msg = 'Syntax error on token ""Goodbye!"", delete this token'
+5 Feb 2018 19:43:28 GMT: diagnostics = javax.tools.DiagnosticCollector@367c7e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@eb3a14
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:43:28 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1cb0da6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:43:28 GMT: Compiler call returned
+5 Feb 2018 19:43:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1668df6
+5 Feb 2018 19:43:28 GMT:  Kind = WARNING
+5 Feb 2018 19:43:28 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:43:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b5954
+5 Feb 2018 19:43:28 GMT:  Kind = WARNING
+5 Feb 2018 19:43:28 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 19:43:33 GMT: diagnostics = javax.tools.DiagnosticCollector@50a006
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@f700a3
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:43:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@192c764' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:43:33 GMT: Compiler call returned
+5 Feb 2018 19:43:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c2b17b
+5 Feb 2018 19:43:33 GMT:  Kind = WARNING
+5 Feb 2018 19:43:33 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:43:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bbf92
+5 Feb 2018 19:43:33 GMT:  Kind = WARNING
+5 Feb 2018 19:43:33 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 19:43:40 GMT: diagnostics = javax.tools.DiagnosticCollector@9aa2ab
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1edbb5e
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:43:40 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@195ee68' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:43:41 GMT: Compiler call returned
+5 Feb 2018 19:43:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19a8733
+5 Feb 2018 19:43:41 GMT:  Kind = WARNING
+5 Feb 2018 19:43:41 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:43:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@232c7a
+5 Feb 2018 19:43:41 GMT:  Kind = WARNING
+5 Feb 2018 19:43:41 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 9 ColNo = 12 Msg = 'The value of the local variable bag is not used'
+5 Feb 2018 19:45:56 GMT: diagnostics = javax.tools.DiagnosticCollector@162485f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d290ff
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:45:56 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1db49d4' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:45:56 GMT: Compiler call returned
+5 Feb 2018 19:45:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7ea0fc
+5 Feb 2018 19:45:56 GMT:  Kind = ERROR
+5 Feb 2018 19:45:56 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 31 ColNo = 9 Msg = 'The local variable bag may not have been initialized'
+5 Feb 2018 19:45:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d8d149
+5 Feb 2018 19:45:56 GMT:  Kind = ERROR
+5 Feb 2018 19:45:56 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 38 ColNo = 26 Msg = 'The local variable bag may not have been initialized'
+5 Feb 2018 19:45:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@159d644
+5 Feb 2018 19:45:56 GMT:  Kind = WARNING
+5 Feb 2018 19:45:56 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:48:06 GMT: diagnostics = javax.tools.DiagnosticCollector@927da4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@9a2e7e
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:48:06 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@101e564' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:48:06 GMT: Compiler call returned
+5 Feb 2018 19:48:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@50a63a
+5 Feb 2018 19:48:06 GMT:  Kind = ERROR
+5 Feb 2018 19:48:06 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 31 ColNo = 9 Msg = 'The local variable bag may not have been initialized'
+5 Feb 2018 19:48:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1771d3
+5 Feb 2018 19:48:06 GMT:  Kind = ERROR
+5 Feb 2018 19:48:06 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 38 ColNo = 12 Msg = 'The local variable bag may not have been initialized'
+5 Feb 2018 19:48:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19c935d
+5 Feb 2018 19:48:06 GMT:  Kind = ERROR
+5 Feb 2018 19:48:06 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 39 ColNo = 30 Msg = 'The local variable bag may not have been initialized'
+5 Feb 2018 19:48:06 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7d14c7
+5 Feb 2018 19:48:06 GMT:  Kind = WARNING
+5 Feb 2018 19:48:06 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:49:53 GMT: diagnostics = javax.tools.DiagnosticCollector@1365164
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@19d1006
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:49:53 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6dcc4d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:49:53 GMT: Compiler call returned
+5 Feb 2018 19:49:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@179ef43
+5 Feb 2018 19:49:53 GMT:  Kind = WARNING
+5 Feb 2018 19:49:53 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:52:00 GMT: diagnostics = javax.tools.DiagnosticCollector@8a9592
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1d80303
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:52:00 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c06efb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:52:00 GMT: Compiler call returned
+5 Feb 2018 19:52:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f95cb
+5 Feb 2018 19:52:00 GMT:  Kind = WARNING
+5 Feb 2018 19:52:00 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:53:07 GMT: diagnostics = javax.tools.DiagnosticCollector@1f03d21
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@45d1da
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:53:07 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@fdd56e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:53:07 GMT: Compiler call returned
+5 Feb 2018 19:53:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dd88fc
+5 Feb 2018 19:53:07 GMT:  Kind = WARNING
+5 Feb 2018 19:53:07 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:53:43 GMT: diagnostics = javax.tools.DiagnosticCollector@142b435
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@402d66
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:53:43 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@b1fc87' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:53:43 GMT: Compiler call returned
+5 Feb 2018 19:53:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18e9757
+5 Feb 2018 19:53:43 GMT:  Kind = WARNING
+5 Feb 2018 19:53:43 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:56:05 GMT: diagnostics = javax.tools.DiagnosticCollector@74a22
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@2c4451
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:56:05 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@198a299' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:56:05 GMT: Compiler call returned
+5 Feb 2018 19:56:05 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16239f8
+5 Feb 2018 19:56:05 GMT:  Kind = WARNING
+5 Feb 2018 19:56:05 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 19:59:21 GMT: diagnostics = javax.tools.DiagnosticCollector@18adac3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@166587b
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 19:59:21 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1889a71' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 19:59:21 GMT: Compiler call returned
+5 Feb 2018 19:59:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f34890
+5 Feb 2018 19:59:21 GMT:  Kind = WARNING
+5 Feb 2018 19:59:21 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 20:00:15 GMT: diagnostics = javax.tools.DiagnosticCollector@bfa161
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1115e9f
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 20:00:15 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@997da5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 20:00:15 GMT: Compiler call returned
+5 Feb 2018 20:00:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b8c890
+5 Feb 2018 20:00:15 GMT:  Kind = WARNING
+5 Feb 2018 20:00:15 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 13 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 20:08:32 GMT: diagnostics = javax.tools.DiagnosticCollector@109d864
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@11fd70c
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 20:08:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@171598e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 20:08:32 GMT: Compiler call returned
+5 Feb 2018 20:08:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@39c6ef
+5 Feb 2018 20:08:32 GMT:  Kind = ERROR
+5 Feb 2018 20:08:32 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 48 ColNo = 26 Msg = 'nextInt cannot be resolved or is not a field'
+5 Feb 2018 20:08:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e70da2
+5 Feb 2018 20:08:32 GMT:  Kind = ERROR
+5 Feb 2018 20:08:32 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 50 ColNo = 27 Msg = 'nextInt cannot be resolved or is not a field'
+5 Feb 2018 20:08:43 GMT: diagnostics = javax.tools.DiagnosticCollector@b6bdb6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c5e00b
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 20:08:43 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1a3b251' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 20:08:43 GMT: Compiler call returned
+5 Feb 2018 20:08:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@cbd7b2
+5 Feb 2018 20:08:43 GMT:  Kind = WARNING
+5 Feb 2018 20:08:43 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 14 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 20:08:51 GMT: diagnostics = javax.tools.DiagnosticCollector@cfe5e3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@186471f
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 20:08:51 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@82a964' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 20:08:51 GMT: Compiler call returned
+5 Feb 2018 20:08:51 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@82ad6d
+5 Feb 2018 20:08:51 GMT:  Kind = WARNING
+5 Feb 2018 20:08:51 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 14 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 20:09:33 GMT: diagnostics = javax.tools.DiagnosticCollector@aa8a5e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@e62530
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 20:09:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1d681af' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 20:09:33 GMT: Compiler call returned
+5 Feb 2018 20:09:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@33da76
+5 Feb 2018 20:09:33 GMT:  Kind = WARNING
+5 Feb 2018 20:09:33 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 14 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 20:50:27 GMT: diagnostics = javax.tools.DiagnosticCollector@70a636
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b345ba
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 20:50:27 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@e0afc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 20:50:27 GMT: Compiler call returned
+5 Feb 2018 20:50:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1773826
+5 Feb 2018 20:50:27 GMT:  Kind = ERROR
+5 Feb 2018 20:50:27 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 66 ColNo = 19 Msg = 'Syntax error, insert ":: IdentifierOrNew" to complete ReferenceExpression'
+5 Feb 2018 20:50:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a43b49
+5 Feb 2018 20:50:27 GMT:  Kind = ERROR
+5 Feb 2018 20:50:27 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 66 ColNo = 19 Msg = 'Syntax error, insert ";" to complete Statement'
+5 Feb 2018 20:50:31 GMT: diagnostics = javax.tools.DiagnosticCollector@1967c7b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@19f3803
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 20:50:31 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@7f9efe' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 20:50:31 GMT: Compiler call returned
+5 Feb 2018 20:50:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c871d0
+5 Feb 2018 20:50:31 GMT:  Kind = WARNING
+5 Feb 2018 20:50:31 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 20:51:23 GMT: diagnostics = javax.tools.DiagnosticCollector@f5d441
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@bd7016
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 20:51:23 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14e3187' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 20:51:23 GMT: Compiler call returned
+5 Feb 2018 20:51:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@da3c72
+5 Feb 2018 20:51:23 GMT:  Kind = WARNING
+5 Feb 2018 20:51:23 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 20:54:17 GMT: diagnostics = javax.tools.DiagnosticCollector@c2d6f4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@a06e8c
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 20:54:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@74a471' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 20:54:17 GMT: Compiler call returned
+5 Feb 2018 20:54:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e88ef5
+5 Feb 2018 20:54:17 GMT:  Kind = WARNING
+5 Feb 2018 20:54:17 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 20:56:15 GMT: diagnostics = javax.tools.DiagnosticCollector@1920692
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1bf63fa
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 20:56:15 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1a29c14' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 20:56:16 GMT: Compiler call returned
+5 Feb 2018 20:56:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14a249f
+5 Feb 2018 20:56:16 GMT:  Kind = WARNING
+5 Feb 2018 20:56:16 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 21:00:28 GMT: diagnostics = javax.tools.DiagnosticCollector@e3e4d1
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b5123b
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java]
+5 Feb 2018 21:00:28 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1662c6d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 21:00:28 GMT: Compiler call returned
+5 Feb 2018 21:00:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1badc47
+5 Feb 2018 21:00:28 GMT:  Kind = WARNING
+5 Feb 2018 21:00:28 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 21:02:50 GMT: diagnostics = javax.tools.DiagnosticCollector@1515c7d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@11a2748
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java]
+5 Feb 2018 21:02:50 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f92b79' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 21:02:50 GMT: Compiler call returned
+5 Feb 2018 21:02:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@127b6e6
+5 Feb 2018 21:02:50 GMT:  Kind = WARNING
+5 Feb 2018 21:02:50 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 21:05:45 GMT: diagnostics = javax.tools.DiagnosticCollector@6be5fc
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@509dbe
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java]
+5 Feb 2018 21:05:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@9c49d0' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 21:05:45 GMT: Compiler call returned
+5 Feb 2018 21:05:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@da8290
+5 Feb 2018 21:05:45 GMT:  Kind = WARNING
+5 Feb 2018 21:05:45 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 21:08:40 GMT: diagnostics = javax.tools.DiagnosticCollector@c0be8c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@15fc5dd
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java]
+5 Feb 2018 21:08:40 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@ac32dc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 21:08:40 GMT: Compiler call returned
+5 Feb 2018 21:08:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@aaff22
+5 Feb 2018 21:08:40 GMT:  Kind = WARNING
+5 Feb 2018 21:08:40 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 21:10:58 GMT: diagnostics = javax.tools.DiagnosticCollector@1abf5a5
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@77c04c
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 21:10:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@307575' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 21:10:58 GMT: Compiler call returned
+5 Feb 2018 21:10:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13addc7
+5 Feb 2018 21:10:58 GMT:  Kind = WARNING
+5 Feb 2018 21:10:58 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 21:11:00 GMT: diagnostics = javax.tools.DiagnosticCollector@5ef2e1
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@117cfe7
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 21:11:00 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@144bd3c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 21:11:01 GMT: Compiler call returned
+5 Feb 2018 21:11:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4b12fc
+5 Feb 2018 21:11:01 GMT:  Kind = WARNING
+5 Feb 2018 21:11:01 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 21:11:03 GMT: diagnostics = javax.tools.DiagnosticCollector@4043b3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@811455
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 21:11:03 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@9085df' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 21:11:03 GMT: Compiler call returned
+5 Feb 2018 21:11:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d6843b
+5 Feb 2018 21:11:03 GMT:  Kind = WARNING
+5 Feb 2018 21:11:03 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 21:13:23 GMT: diagnostics = javax.tools.DiagnosticCollector@179d8ab
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@16a7f36
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 21:13:23 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@869a24' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 21:13:23 GMT: Compiler call returned
+5 Feb 2018 21:13:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e46cce
+5 Feb 2018 21:13:23 GMT:  Kind = WARNING
+5 Feb 2018 21:13:23 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+5 Feb 2018 21:14:39 GMT: diagnostics = javax.tools.DiagnosticCollector@20c947
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1335995
+fileObjects = [C:\Users\EgeOzan\Desktop\lab01\Prime.java, C:\Users\EgeOzan\Desktop\lab01\IntBag.java, C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java]
+5 Feb 2018 21:14:39 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@fbb538' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\Desktop\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+5 Feb 2018 21:14:39 GMT: Compiler call returned
+5 Feb 2018 21:14:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4e81ad
+5 Feb 2018 21:14:39 GMT:  Kind = WARNING
+5 Feb 2018 21:14:39 GMT: Name = C:\Users\EgeOzan\Desktop\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 15:01:08 GMT: Log 'EclipseCompiler.txt' opened: 6 Feb 2018 15:01:08 GMT with name C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\EclipseCompiler.txt
+6 Feb 2018 15:03:48 GMT: diagnostics = javax.tools.DiagnosticCollector@697680
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@186488b
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java]
+6 Feb 2018 15:03:48 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1833b64' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 15:03:49 GMT: Compiler call returned
+6 Feb 2018 15:03:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@108ce04
+6 Feb 2018 15:03:49 GMT:  Kind = WARNING
+6 Feb 2018 15:03:49 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 15:06:29 GMT: diagnostics = javax.tools.DiagnosticCollector@2a6fe
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4a4667
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java]
+6 Feb 2018 15:06:29 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@19064db' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 15:06:29 GMT: Compiler call returned
+6 Feb 2018 15:06:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d5e015
+6 Feb 2018 15:06:29 GMT:  Kind = WARNING
+6 Feb 2018 15:06:29 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 15:06:38 GMT: diagnostics = javax.tools.DiagnosticCollector@16a9faa
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@2ddbef
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java]
+6 Feb 2018 15:06:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1de9bf0' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 15:06:38 GMT: Compiler call returned
+6 Feb 2018 15:06:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7b6532
+6 Feb 2018 15:06:38 GMT:  Kind = WARNING
+6 Feb 2018 15:06:38 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 15:14:39 GMT: diagnostics = javax.tools.DiagnosticCollector@1565fc
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@8c7117
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java]
+6 Feb 2018 15:14:39 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b5d5dc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 15:14:39 GMT: Compiler call returned
+6 Feb 2018 15:14:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1109d36
+6 Feb 2018 15:14:39 GMT:  Kind = ERROR
+6 Feb 2018 15:14:39 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 45 ColNo = 21 Msg = 'Syntax error, insert ";" to complete BlockStatements'
+6 Feb 2018 15:14:43 GMT: diagnostics = javax.tools.DiagnosticCollector@de2fd9
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@7cec5a
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java]
+6 Feb 2018 15:14:43 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1a530e2' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 15:14:44 GMT: Compiler call returned
+6 Feb 2018 15:14:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4116e5
+6 Feb 2018 15:14:44 GMT:  Kind = ERROR
+6 Feb 2018 15:14:44 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 45 ColNo = 17 Msg = 'The method add(int) in the type IntBag is not applicable for the arguments ()'
+6 Feb 2018 15:16:13 GMT: diagnostics = javax.tools.DiagnosticCollector@1dbe299
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b2ed9d
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java]
+6 Feb 2018 15:16:13 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@742ce5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 15:16:14 GMT: Compiler call returned
+6 Feb 2018 15:16:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e82ea8
+6 Feb 2018 15:16:14 GMT:  Kind = WARNING
+6 Feb 2018 15:16:14 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 15:20:02 GMT: diagnostics = javax.tools.DiagnosticCollector@1ec6104
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@98ed12
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java]
+6 Feb 2018 15:20:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1185bc6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 15:20:02 GMT: Compiler call returned
+6 Feb 2018 15:20:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@88a364
+6 Feb 2018 15:20:02 GMT:  Kind = WARNING
+6 Feb 2018 15:20:02 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 16 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 15:43:58 GMT: diagnostics = javax.tools.DiagnosticCollector@1038262
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@19fc5fe
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java]
+6 Feb 2018 15:43:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1897f55' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 15:43:59 GMT: Compiler call returned
+6 Feb 2018 15:43:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@679142
+6 Feb 2018 15:43:59 GMT:  Kind = WARNING
+6 Feb 2018 15:43:59 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 22 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 15:53:10 GMT: diagnostics = javax.tools.DiagnosticCollector@fd2f20
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@19db012
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java]
+6 Feb 2018 15:53:10 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1f94a00' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 15:53:10 GMT: Compiler call returned
+6 Feb 2018 15:53:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2d4436
+6 Feb 2018 15:53:10 GMT:  Kind = ERROR
+6 Feb 2018 15:53:10 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java LineNo = 135 ColNo = 14 Msg = 'Syntax error, insert ";" to complete Statement'
+6 Feb 2018 15:53:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fb5411
+6 Feb 2018 15:53:10 GMT:  Kind = WARNING
+6 Feb 2018 15:53:10 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 15:53:16 GMT: diagnostics = javax.tools.DiagnosticCollector@18947d1
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@54e71
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java]
+6 Feb 2018 15:53:16 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@8033a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 15:53:16 GMT: Compiler call returned
+6 Feb 2018 15:53:16 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@61c962
+6 Feb 2018 15:53:16 GMT:  Kind = WARNING
+6 Feb 2018 15:53:16 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 15:59:10 GMT: diagnostics = javax.tools.DiagnosticCollector@3dc89b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@89ef0e
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java]
+6 Feb 2018 15:59:10 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@140070a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 15:59:11 GMT: Compiler call returned
+6 Feb 2018 15:59:11 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@97e993
+6 Feb 2018 15:59:11 GMT:  Kind = WARNING
+6 Feb 2018 15:59:11 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 16:06:15 GMT: diagnostics = javax.tools.DiagnosticCollector@1442ff4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1304dfc
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java]
+6 Feb 2018 16:06:15 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@79d333' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 16:06:15 GMT: Compiler call returned
+6 Feb 2018 16:06:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14210d
+6 Feb 2018 16:06:15 GMT:  Kind = WARNING
+6 Feb 2018 16:06:15 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 16:06:37 GMT: diagnostics = javax.tools.DiagnosticCollector@16859a6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@403eaa
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java]
+6 Feb 2018 16:06:37 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@163b428' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 16:06:37 GMT: Compiler call returned
+6 Feb 2018 16:06:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@184422c
+6 Feb 2018 16:06:37 GMT:  Kind = WARNING
+6 Feb 2018 16:06:37 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+6 Feb 2018 16:07:22 GMT: diagnostics = javax.tools.DiagnosticCollector@98f6b9
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@6e5235
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\Prime.java]
+6 Feb 2018 16:07:22 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@ef797d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01;C:\Users\EgeOzan\Desktop\DrJava.exe]
+6 Feb 2018 16:07:22 GMT: Compiler call returned
+6 Feb 2018 16:07:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1db5e9d
+6 Feb 2018 16:07:22 GMT:  Kind = WARNING
+6 Feb 2018 16:07:22 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\lab01\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+9 Feb 2018 20:56:57 GMT: Log 'EclipseCompiler.txt' opened: 9 Feb 2018 20:56:57 GMT with name C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\EclipseCompiler.txt
+9 Feb 2018 20:57:06 GMT: diagnostics = javax.tools.DiagnosticCollector@bd9305
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@cb46f3
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java]
+9 Feb 2018 20:57:06 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@964d80' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+9 Feb 2018 20:57:07 GMT: Compiler call returned
+9 Feb 2018 20:57:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6c1400
+9 Feb 2018 20:57:07 GMT:  Kind = WARNING
+9 Feb 2018 20:57:07 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+9 Feb 2018 20:57:28 GMT: diagnostics = javax.tools.DiagnosticCollector@c646c4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1cd543c
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java]
+9 Feb 2018 20:57:28 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@12604c7' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+9 Feb 2018 20:57:28 GMT: Compiler call returned
+9 Feb 2018 20:57:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1016d32
+9 Feb 2018 20:57:28 GMT:  Kind = WARNING
+9 Feb 2018 20:57:28 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+9 Feb 2018 20:57:34 GMT: diagnostics = javax.tools.DiagnosticCollector@f1d35c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f199c6
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java]
+9 Feb 2018 20:57:34 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17f1fb3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+9 Feb 2018 20:57:34 GMT: Compiler call returned
+9 Feb 2018 20:57:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@acff24
+9 Feb 2018 20:57:34 GMT:  Kind = WARNING
+9 Feb 2018 20:57:34 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:00:09 GMT: Log 'EclipseCompiler.txt' opened: 10 Feb 2018 9:00:09 GMT with name C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\EclipseCompiler.txt
+10 Feb 2018 9:14:55 GMT: diagnostics = javax.tools.DiagnosticCollector@a0049c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@176513c
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java]
+10 Feb 2018 9:14:55 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6ffaa5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:14:55 GMT: Compiler call returned
+10 Feb 2018 9:14:55 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1003508
+10 Feb 2018 9:14:55 GMT:  Kind = WARNING
+10 Feb 2018 9:14:55 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:17:03 GMT: diagnostics = javax.tools.DiagnosticCollector@169e3d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@65ba1d
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java]
+10 Feb 2018 9:17:03 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@16cb0a0' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:17:03 GMT: Compiler call returned
+10 Feb 2018 9:17:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1823d0c
+10 Feb 2018 9:17:03 GMT:  Kind = WARNING
+10 Feb 2018 9:17:03 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:18:32 GMT: diagnostics = javax.tools.DiagnosticCollector@88eaf5
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b9f30e
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java]
+10 Feb 2018 9:18:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@cebe39' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:18:32 GMT: Compiler call returned
+10 Feb 2018 9:18:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@652153
+10 Feb 2018 9:18:32 GMT:  Kind = WARNING
+10 Feb 2018 9:18:32 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:26:45 GMT: diagnostics = javax.tools.DiagnosticCollector@203fab
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@e5ab60
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java]
+10 Feb 2018 9:26:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f1e236' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:26:45 GMT: Compiler call returned
+10 Feb 2018 9:26:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@22c44
+10 Feb 2018 9:26:45 GMT:  Kind = WARNING
+10 Feb 2018 9:26:45 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:26:48 GMT: diagnostics = javax.tools.DiagnosticCollector@1b235fe
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f5ed03
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java]
+10 Feb 2018 9:26:48 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ff18bc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:26:48 GMT: Compiler call returned
+10 Feb 2018 9:26:48 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1478937
+10 Feb 2018 9:26:48 GMT:  Kind = WARNING
+10 Feb 2018 9:26:48 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:27:49 GMT: diagnostics = javax.tools.DiagnosticCollector@11bb43a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@14f0377
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:27:49 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1f63769' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:27:49 GMT: Compiler call returned
+10 Feb 2018 9:27:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@563a5c
+10 Feb 2018 9:27:49 GMT:  Kind = WARNING
+10 Feb 2018 9:27:49 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:30:56 GMT: diagnostics = javax.tools.DiagnosticCollector@147285a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@182af6d
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:30:56 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@11f7b9c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:30:56 GMT: Compiler call returned
+10 Feb 2018 9:30:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cdabcd
+10 Feb 2018 9:30:56 GMT:  Kind = WARNING
+10 Feb 2018 9:30:56 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:33:20 GMT: diagnostics = javax.tools.DiagnosticCollector@19018be
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@86e3c9
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:33:20 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@463b69' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:33:20 GMT: Compiler call returned
+10 Feb 2018 9:33:20 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b55ce6
+10 Feb 2018 9:33:20 GMT:  Kind = WARNING
+10 Feb 2018 9:33:20 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:33:46 GMT: diagnostics = javax.tools.DiagnosticCollector@3de9e5
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@17e852a
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:33:46 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1592254' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:33:46 GMT: Compiler call returned
+10 Feb 2018 9:33:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a18d1e
+10 Feb 2018 9:33:46 GMT:  Kind = WARNING
+10 Feb 2018 9:33:46 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:36:40 GMT: diagnostics = javax.tools.DiagnosticCollector@1275e65
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1d3660e
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:36:40 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@8573f3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:36:40 GMT: Compiler call returned
+10 Feb 2018 9:36:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10204f4
+10 Feb 2018 9:36:40 GMT:  Kind = WARNING
+10 Feb 2018 9:36:40 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:36:49 GMT: diagnostics = javax.tools.DiagnosticCollector@19cf57e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@192dfee
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:36:49 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a7a1cd' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:36:49 GMT: Compiler call returned
+10 Feb 2018 9:36:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1258c3a
+10 Feb 2018 9:36:49 GMT:  Kind = WARNING
+10 Feb 2018 9:36:49 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:37:32 GMT: diagnostics = javax.tools.DiagnosticCollector@1289524
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1809b47
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:37:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1e9de5e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:37:32 GMT: Compiler call returned
+10 Feb 2018 9:37:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@476106
+10 Feb 2018 9:37:32 GMT:  Kind = WARNING
+10 Feb 2018 9:37:32 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:40:08 GMT: diagnostics = javax.tools.DiagnosticCollector@f505bb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d1f297
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java]
+10 Feb 2018 9:40:08 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@e7c779' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:40:08 GMT: Compiler call returned
+10 Feb 2018 9:40:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@142224c
+10 Feb 2018 9:40:08 GMT:  Kind = WARNING
+10 Feb 2018 9:40:08 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:41:17 GMT: diagnostics = javax.tools.DiagnosticCollector@81cac9
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@3969f0
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:41:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@19668da' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:41:17 GMT: Compiler call returned
+10 Feb 2018 9:41:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5011c1
+10 Feb 2018 9:41:17 GMT:  Kind = WARNING
+10 Feb 2018 9:41:17 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:41:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1627947
+10 Feb 2018 9:41:17 GMT:  Kind = ERROR
+10 Feb 2018 9:41:17 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java LineNo = 121 ColNo = 14 Msg = 'Syntax error, insert ";" to complete Statement'
+10 Feb 2018 9:41:21 GMT: diagnostics = javax.tools.DiagnosticCollector@122bdfd
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10afb23
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:41:21 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1294eba' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:41:21 GMT: Compiler call returned
+10 Feb 2018 9:41:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@867e26
+10 Feb 2018 9:41:21 GMT:  Kind = WARNING
+10 Feb 2018 9:41:21 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:41:21 GMT: diagnostics = javax.tools.DiagnosticCollector@e6fb79
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@12dbaec
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:41:21 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b66690' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:41:21 GMT: Compiler call returned
+10 Feb 2018 9:41:21 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dd3660
+10 Feb 2018 9:41:21 GMT:  Kind = WARNING
+10 Feb 2018 9:41:21 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:42:00 GMT: diagnostics = javax.tools.DiagnosticCollector@140667c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@3f2a8a
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:42:00 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@71782d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:42:00 GMT: Compiler call returned
+10 Feb 2018 9:42:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11273a8
+10 Feb 2018 9:42:00 GMT:  Kind = WARNING
+10 Feb 2018 9:42:00 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 9:51:43 GMT: diagnostics = javax.tools.DiagnosticCollector@1459c4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1822069
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java]
+10 Feb 2018 9:51:43 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@cf5a08' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 9:51:43 GMT: Compiler call returned
+10 Feb 2018 9:51:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@11df8e9
+10 Feb 2018 9:51:43 GMT:  Kind = WARNING
+10 Feb 2018 9:51:43 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 14:22:56 GMT: Log 'EclipseCompiler.txt' opened: 10 Feb 2018 14:22:56 GMT with name C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\EclipseCompiler.txt
+10 Feb 2018 14:23:56 GMT: diagnostics = javax.tools.DiagnosticCollector@147d214
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@bb2846
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java]
+10 Feb 2018 14:23:56 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@10c30d5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 14:23:56 GMT: Compiler call returned
+10 Feb 2018 14:23:56 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@387939
+10 Feb 2018 14:23:56 GMT:  Kind = WARNING
+10 Feb 2018 14:23:56 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'
+10 Feb 2018 14:25:01 GMT: diagnostics = javax.tools.DiagnosticCollector@ca13fd
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b6fa16
+fileObjects = [C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\Prime.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\IntBag.java, C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java]
+10 Feb 2018 14:25:01 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@2fd910' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, ;C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan;C:\Users\EgeOzan\Desktop\DrJava.exe]
+10 Feb 2018 14:25:01 GMT: Compiler call returned
+10 Feb 2018 14:25:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d8d26b
+10 Feb 2018 14:25:01 GMT:  Kind = WARNING
+10 Feb 2018 14:25:01 GMT: Name = C:\Users\EgeOzan\OneDrive\Spring 2018\CS102\Labs\02_Lab01_Ozyedek_EgeOzan\TestIntBag.java LineNo = 25 ColNo = 5 Msg = 'Resource leak: 'scan' is never closed'

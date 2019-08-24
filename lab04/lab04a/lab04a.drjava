@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" build="out/" main="PotLuck" root="src/" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="LuckyFrame.java" package="" timestamp="27-Mar-2018 10:15:46">
+        <select from="5154" to="5154"/>
+        <scroll column="1940" row="0"/>
+      </file>
+      <file name="PotLuck.java" package="" timestamp="27-Mar-2018 10:15:46">
+        <select from="5154" to="5154"/>
+        <scroll column="1940" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

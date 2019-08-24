@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" build="out/production/" main="Lab07b" root="src/" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="cs102/ds/List.java" package="cs102.ds" timestamp="08-May-2018 09:19:30">
+        <select from="125" to="125"/>
+        <scroll column="89" row="0"/>
+      </file>
+      <file name="cs102/ds/Stack.java" package="cs102.ds" timestamp="07-May-2018 21:12:38">
+        <select from="125" to="125"/>
+        <scroll column="89" row="0"/>
+      </file>
+      <file name="Lab07b.java" package="" timestamp="08-May-2018 09:01:47">
+        <select from="125" to="125"/>
+        <scroll column="89" row="0"/>
+      </file>
+      <file name="Lab07a.java" package="" timestamp="08-May-2018 09:29:02">
+        <select from="125" to="125"/>
+        <scroll column="89" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

@@ -1,0 +1,54 @@
+package shapes;
+
+public class Rectangle extends Shape
+{
+
+    //properties
+    private int width;
+    private int height;
+    private boolean selected;
+
+    //constructors
+    public Rectangle( int width, int height)
+    {
+        this.width = width;
+        this.height = height;
+        selected = false;
+    }
+
+    //methods
+
+    public double getArea()
+    {
+        return width * height;
+    }
+
+    public boolean getSelected()
+    {
+        return selected;
+    }
+
+    public void setSelected(boolean c)
+    {
+        selected = c;
+    }
+
+
+    public Rectangle contains(int x, int y)
+    {
+        x = Math.abs( x - this.x);
+        y = Math.abs( y - this.y);
+
+        if ( Math.abs( x) > width / 2 || Math.abs( y) > height / 2)
+        {
+            return null;
+        }
+        return this;
+    }
+
+    public String toString()
+    {
+        return "Shape: Rectangle" + ", Width: " + width + ", Height: "
+                + height + ", Area: " + getArea() + ", Selected(T/F): " + selected;
+    }
+}

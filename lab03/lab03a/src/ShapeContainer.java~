@@ -1,0 +1,79 @@
+import java.util.ArrayList;
+import shapes.*;
+
+public class ShapeContainer {
+
+    //properties
+    private ArrayList<Shape> shapes;
+
+    //constructors
+    public ShapeContainer()
+    {
+        shapes = new ArrayList<Shape>();
+    }
+
+    //methods
+
+    public void add(Shape s)
+    {
+        shapes.add(s);
+    }
+
+    public double getArea()
+    {
+        int totalArea;
+        totalArea = 0;
+
+        for ( int i = 0; i < shapes.size(); i++)
+        {
+            totalArea += shapes.get(i).getArea();
+        }
+        return totalArea;
+    }
+
+    public Shape findFirst( int x, int y)
+    {
+        for ( int i = 0; i < shapes.size(); i++)
+        {
+            if ( !(shapes.get(i).contains( x, y) == null) && !shapes.get(i).getSelected())
+            {
+                return shapes.get( i);
+            }
+        }
+        return null;
+    }
+
+    public void removeSelected()
+    {
+        for ( int i = 0; i < shapes.size(); i++) {
+            if ( shapes.get(i).getSelected())
+            {
+                shapes.remove(i);
+            }
+        }
+    }
+
+    public int getSize()
+    {
+        return shapes.size();
+    }
+
+    public Shape getShape( int i)
+    {
+        return shapes.get(i);
+    }
+
+    @Override
+    public String toString()
+    {
+        String result;
+        result = "";
+
+        for ( int i = 0; i < shapes.size(); i++)
+        {
+            result += "Index: " + i + ", " + shapes.get(i).toString() + "\n" ;
+        }
+
+        return result;
+    }
+}

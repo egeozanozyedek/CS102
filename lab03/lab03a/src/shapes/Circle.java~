@@ -1,0 +1,55 @@
+package shapes;
+
+public class Circle extends Shape
+{
+
+    //properties
+    private int radius;
+    private boolean selected;
+
+    //constructors
+    public Circle( int radius)
+    {
+        this.radius = radius;
+        selected = false;
+    }
+
+    //methods
+
+    public double getArea() {
+        return Math.PI * Math.pow( radius, 2);
+    }
+
+    public boolean getSelected()
+    {
+        return selected;
+    }
+
+    public void setSelected(boolean c)
+    {
+        selected = c;
+    }
+
+
+    public Circle contains(int x, int y)
+    {
+        double r;
+
+        x = Math.abs( x - this.x);
+        y = Math.abs( y - this.y);
+        r = Math.sqrt( Math.pow( x, 2) + Math.pow( y, 2) );
+
+        if ( r < radius )
+        {
+            return this;
+        }
+        else {
+            return null;
+        }
+    }
+
+    public String toString()
+    {
+        return "Shape: Circle" + ", Radius: " + radius + ", Area: " + getArea() + ", Selected(T/F): " + selected;
+    }
+}

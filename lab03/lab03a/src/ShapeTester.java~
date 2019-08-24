@@ -1,0 +1,148 @@
+import java.util.Scanner;
+import shapes.*;
+
+/*
+ * A class that tests Shape class
+ * @author Ege Ozan Özyedek
+ * @version v1.0
+ * @date 12/03/18
+ */
+public class ShapeTester {
+    public static void main(String[] args)
+    {
+        //constants
+
+        //variables
+        Scanner scan;
+        ShapeContainer container;
+        int input, rad, width, height;
+        int x, y;
+        int index;
+
+
+        //program code
+
+        scan = new Scanner( System.in);
+        container = null;
+
+        do {
+            Shape shape;
+            System.out.println( printMenu());
+            input = scan.nextInt();
+
+            if ( input == 1)
+            {
+                container = new ShapeContainer();
+                System.out.println("Empty Container created.");
+            }
+
+            else if( container == null && input < 10 )
+            {
+                System.out.println("Container not created.");
+            }
+
+            else
+            {
+                if ( input == 2)
+                {
+                    System.out.println( "Enter radius");
+                    rad = scan.nextInt();
+
+                    shape = new Circle( rad);
+                    container.add( shape);
+                }
+
+                else if ( input == 3)
+                {
+                    System.out.println( "Enter side");
+                    width = scan.nextInt();
+
+                    shape = new Square( width);
+                    container.add( shape);
+                }
+
+                else if ( input == 4)
+                {
+                    System.out.println( "Enter width");
+                    width = scan.nextInt();
+                    System.out.println( "Enter height");
+                    height = scan.nextInt();
+
+                    shape = new Rectangle( width, height);
+                    container.add( shape);
+                }
+
+                else if ( input == 5)
+                {
+                    System.out.println("Total Area: " + container.getArea());
+                }
+
+                else if ( input == 6)
+                {
+                    System.out.println(container);
+                }
+
+                else if ( input == 7)
+                {
+                    System.out.println("Enter x coordinate");
+                    x = scan.nextInt();
+                    System.out.println("Enter y coordinate");
+                    y = scan.nextInt();
+                    if (container.findFirst(x, y) == null)
+                    {
+                        System.out.println("Unable to find shape which contains said point and/or is not selected already");
+                    }
+                    else
+                    {
+                        container.findFirst(x, y).setSelected(true);
+                        System.out.println("Selected shape");
+                    }
+                }
+
+                else if ( input == 8)
+                {
+                    container.removeSelected();
+                    System.out.println("Selected shape(s) removed.");
+                }
+
+                else if ( input == 9)
+                {
+                    if ( container.getSize() > 0) {
+                        do {
+                            System.out.println("Enter index of said shape.");
+                            index = scan.nextInt();
+                            if ( index > container.getSize() - 1)
+                                System.out.println("Invalid index.");
+                        } while (index > container.getSize() - 1);
+                        System.out.println("Enter new x coordinate");
+                        x = scan.nextInt();
+                        System.out.println("Enter new y coordinate");
+                        y = scan.nextInt();
+                        container.getShape(index).setLocation(x, y);
+                        System.out.println("New coordinates set.");
+                    }
+                    else {
+                        System.out.println("Empty container.");
+                    }
+                }
+                else if ( input != 10)
+                {
+                    System.out.println("Invalid input.");
+                }
+
+            }
+
+        } while ( input != 10 );
+
+        System.out.println( "Goodbye!");
+        scan.close();
+    }
+
+    private static String printMenu()
+    {
+        return "\n(1) Create Shape Container\n" + "(2) Add Circle\n" + "(3) Add Square\n"
+                + "(4) Add Rectangle\n" + "(5) Get Total Area\n" + "(6) Get Details\n"
+                + "(7) Search for Point\n" + "(8) Remove Selected\n"
+                + "(9) Set New Location of Specified Shape\n" + "(10) Exit\n";
+    }
+}

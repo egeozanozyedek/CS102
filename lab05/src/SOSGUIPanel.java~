@@ -1,0 +1,122 @@
+import javax.swing.*;
+import cs101.sosgame.SOS;
+
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+
+public class SOSGUIPanel extends JPanel {
+
+    //properties
+    private SOS sos;
+    private JPanel p;
+    private JLabel l1,l2;
+    private JRadioButton rb1, rb2;
+    private SOSCanvas canvas;
+    private String n1, n2, winner;
+    private ButtonGroup g;
+
+    //constructors
+    public SOSGUIPanel( SOS sos, String n1, String n2 ) {
+        this.n1 = n1;
+        this.n2 = n2;
+        this.sos = sos;
+        setLayout( new BoxLayout( this, BoxLayout.PAGE_AXIS));
+        canvas = new SOSCanvas( sos);
+        canvas.addMouseListener( new Listener());
+        createComponents();
+        revalidate();
+        repaint();
+    }
+
+    //methods
+
+    private void createComponents() {
+
+        l1 = new JLabel( n1);
+        l1.setOpaque( true);
+        l1.setBackground( Color.GREEN);
+
+        l2 = new JLabel( n2);
+        l2.setOpaque( true);
+        l2.setBackground( Color.GRAY);
+
+        rb1 = new JRadioButton("S", true);
+        rb2 = new JRadioButton("O");
+        g = new ButtonGroup();
+        g.add( rb1);
+        g.add( rb2);
+
+        p = new JPanel( new GridLayout( 1,4));
+        p.add( l1);
+        p.add( rb1);
+        p.add( rb2);
+        p.add( l2);
+
+        add( Box.createRigidArea( new Dimension( 25, 25)));
+       canvas.setBorder(BorderFactory.createCompoundBorder(
+                BorderFactory.createLineBorder(Color.BLACK),
+                canvas.getBorder()));
+
+       canvas.setAlignmentX( Component.CENTER_ALIGNMENT);
+
+        add( canvas);
+
+        p.setMaximumSize( new Dimension( 500, 25));
+
+        add( p);
+
+        setPreferredSize( new Dimension ( 500,550 ));
+    }
+
+    public class Listener implements MouseListener {
+
+        public void mouseClicked(MouseEvent e) {
+            int x, y;
+            char c;
+            if ( rb1.isSelected()) {
+                c = 's';
+            }
+            else {
+                c = 'o';
+            }
+
+            x = (int)(e.getX() / 100) + 1;
+            y = (int)(e.getY() / 100) + 1;
+
+            sos.play( c, x,y);
+
+            if ( sos.getTurn() == 1) {
+                l1.setBackground(Color.GREEN);
+                l2.setBackground( Color.GRAY);
+            }
+            else if ( sos.getTurn() == 2){
+                l2.setBackground( Color.GREEN);
+                l1.setBackground( Color.GRAY);
+            }
+
+            l1.setText( n1 + ": " + sos.getPlayerScore1());
+            l2.setText( n2 + ": " + sos.getPlayerScore2());
+            canvas.repaint();
+
+            if ( sos.isGameOver())  {
+                winner = n1 + " won, congratulations!";
+                if ( sos.getPlayerScore2() > sos.getPlayerScore1())
+                    winner = n2 + " won, congratulations!";
+                else if ( sos.getPlayerScore1() == sos.getPlayerScore2())
+                    winner = "It's a draw!";
+                JOptionPane.showConfirmDialog( SOSGUIPanel.this,
+                        winner, "Game Over", JOptionPane.DEFAULT_OPTION);
+            }
+
+            repaint();
+        }
+        public void mousePressed(MouseEvent e) { }
+        public void mouseReleased(MouseEvent e) { }
+        public void mouseEntered(MouseEvent e) { }
+        public void mouseExited(MouseEvent e) { }
+    }
+
+
+}

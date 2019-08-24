@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" build="out/" main="TestGUIPanel" root="src/" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="SOSCanvas.java" package="" timestamp="03-Apr-2018 11:28:09">
+        <select from="1788" to="1788"/>
+        <scroll column="495" row="0"/>
+      </file>
+      <file name="TestCanvas.java" package="" timestamp="03-Apr-2018 10:25:47">
+        <select from="1788" to="1788"/>
+        <scroll column="495" row="0"/>
+      </file>
+      <file name="SOSGUIPanel.java" package="" timestamp="03-Apr-2018 11:59:47">
+        <select from="1788" to="1788"/>
+        <scroll column="495" row="0"/>
+      </file>
+      <file name="TestGUIPanel.java" package="" timestamp="03-Apr-2018 12:12:32">
+        <select from="1788" to="1788"/>
+        <scroll column="495" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="../classes/"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

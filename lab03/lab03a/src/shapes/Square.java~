@@ -1,0 +1,50 @@
+package shapes;
+
+public class Square extends Rectangle
+{
+
+    //properties
+    private int side;
+    private boolean selected;
+
+    //constructors
+    public Square(int side)
+    {
+        super(side, side);
+        this.side = side;
+        selected = false;
+    }
+
+    //methods
+    public double getArea()
+    {
+        return super.getArea();
+    }
+
+    public boolean getSelected()
+    {
+        return selected;
+    }
+
+    public void setSelected(boolean c)
+    {
+        selected = c;
+    }
+
+
+    public Square contains(int x, int y)
+    {
+        x = Math.abs( x - this.x);
+        y = Math.abs( y - this.y);
+
+        if ( Math.abs( x) > side / 2 || Math.abs( y) > side / 2 ) {
+            return null;
+        }
+        return this;
+    }
+
+    public String toString()
+    {
+        return "Shape: Square" + ", Side Length: " + side + ", Area: " + getArea() + ", Selected(T/F): " + selected;
+    }
+}

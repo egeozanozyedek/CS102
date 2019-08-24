@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" build="bin/" main="PoemProgram" root="src/" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="HTMLFilteredReader.java" package="" timestamp="27-Feb-2018 10:51:21">
+        <select from="1307" to="1307"/>
+        <scroll column="261" row="0"/>
+      </file>
+      <file name="TestSimpleURLReader.java" package="" timestamp="27-Feb-2018 08:36:34">
+        <select from="1307" to="1307"/>
+        <scroll column="261" row="0"/>
+      </file>
+      <file name="TestMySimpleURLReader.java" package="" timestamp="27-Feb-2018 08:36:34">
+        <select from="1307" to="1307"/>
+        <scroll column="261" row="0"/>
+      </file>
+      <file name="TestHTMLFilteredReader.java" package="" timestamp="27-Feb-2018 09:30:18">
+        <select from="1307" to="1307"/>
+        <scroll column="261" row="0"/>
+      </file>
+      <file name="PoemProgram.java" package="" timestamp="27-Feb-2018 09:33:11">
+        <select from="1307" to="1307"/>
+        <scroll column="261" row="0"/>
+      </file>
+      <file name="MySimpleURLReader.java" package="" timestamp="27-Feb-2018 10:25:57">
+        <select from="1307" to="1307"/>
+        <scroll column="261" row="0"/>
+      </file>
+      <file name="TestSuperHTMLFilteredReader.java" package="" timestamp="27-Feb-2018 10:33:53">
+        <select from="1307" to="1307"/>
+        <scroll column="261" row="0"/>
+      </file>
+      <file name="SuperHTMLFilteredReader.java" package="" timestamp="27-Feb-2018 10:33:53">
+        <select from="1307" to="1307"/>
+        <scroll column="261" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="../../cs1.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

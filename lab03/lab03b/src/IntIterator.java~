@@ -1,0 +1,8 @@
+import java.util.Iterator;
+
+public abstract class IntIterator extends Iterator{
+     public int next() 
+     {
+       
+     }
+}
