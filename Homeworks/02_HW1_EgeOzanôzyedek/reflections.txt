@@ -1,0 +1,50 @@
+CS102-02
+Name: Ege Ozan Özyedek
+ID Num.:21703374
+Date: 6 February 2018 (the start date)
+Estimated Time: ~4 hours
+Final Status of Code: Working
+
+(1)First Look - Inspecting all the code
+
+* It seems that some groups did not write any comments inside their code, which may create some problems but i will see that in the merging process.
+* There are 2 different things that im not familiar with at all in these codes: try and StringBuffer. I probably need to look into those before making any changes to them.
+* There are also 2 versions of part 4 (one using try catch and other not) so i might chose the one that im most familiar with if try catch seems inefficient (or if its not allowed). 
+* It kinda confuses me how tryThis() and isGameOver() both have a way of telling whether the game is over or not. It's not a problem though.
+* Here goes nothing!
+
+(2)Merging Process 
+
+* The main method and the class fit in nicely (this was obvious) so its going okay now. The code can't compile because the tryThis() method is not in its place yet.
+* Constructor also fit in nicely. I feel like im not doing anything because everything is working fine, for now.
+* I just put tryThis() in its place and there seems to be a problem. We (group c) assumed that the user would input a String and we would use that in tryThis(String input), but the tryThis() requires a char. I either have to change the main method so that it reads a char from the user or i have to change the tryThis() parameter to a String.
+* As i assumed the char-string thing i talked about is creating a problem because the tryThis() method is trying to find the index of a char inside a StringBuffer. They probably thought if it was a string(the user input) the user could enter 100 letters with no spaces inbetween and it would create problems. However we (group c) actually thought about this happening and wrote the main method so that it would take the first letter of a word/multi letter String.
+* The char problem continues. In the for loop (that is in the tryThis() method) it compares chars to see if there is  match between the user  input and the words letters. Using substring(instead of charAt()) and changing "==" to ".equals()" should solve the problem.
+* So when i compile it in this stage (without chooseSecretWord()) the only error is caused by chooseSecretWord() not being there, which seems good.
+* Pretty nervous about chooseSecretWord() since there are 2 versions and both of them use some things that im not totally familiar with.
+* One version of chooseSecretWord() has a test in it to test it. It seems pretty reliable and it doesnt use try (though it uses multiple different java.util.___ 's, which no doubt will take time to understand. It is good as a learning exercise.)
+* I decided to take a break and continue tomorrow. It has been about 1 hour and 15 minutes since i started.
+
+----- Next Day -----
+
+* I decided to try the one with try catch first. Since that version doesn't require any additional methods.
+* I implemented chooseSecretWord(). It compiles and runs, however it doesnt really work. It doesn't increase how many wrong tries you did or doesnt show the letters place.
+* Addded a .txt file that contains 500 words (i used a random word generator on the internet that generates however amount of words you like).
+* chooseSecretWord() definetly works since it shows different lengthed words. However i need to either change tryThis() or one of get___() methods since it  does not increase the try amount.
+* Upon changing tryThis() method (i changed the method a little bit when implementing, which apperantly caused the problem) it works now! The problem was that while using indexOf i thought it would've been better if i used < 0 insted of != -1. While i wasn't totally wrong, i forgot to put an = after the <. So i should've written <= 0. Though now looking at it, != -1 looks a lot better.
+* Now i will add javadocs and look if there are any obvious problems.
+* A problem occured: Even if i enter the same letter, it increases the incorrect try count. Its probably a problem in the tryThis() since thats the method that increases the count.
+* Fixed it. First i tried to move usedLetters.append(letter) (which adds the used input letter to StringBuffer usedLetters) to the end of the mmethod so that it could add the used letter everytime (before it was in the condition where the user entered incorrect letter and not on the other conditions), it gave an unreachable code since in every condition there was a return statement. So i simply created and int result and returned that after adding the used letter to the usedLetters.
+* Maybe not really a major problem but looks bad: If i enter the same letter everytime, it always adds the letter to the used ones. I should probably change the thing i did with the tryThis() method and put the usedLetters.append(letter) to all of themm except the one that determines if the letter was used or not.
+* Fixed it. I did a thing similar to the one i wrote and it worked! I put a condition at the end of the loop so that if the result is not -2 then it can add the leter to used letter. This way i didnt have to copy paste it to every one of them and it seems a lot more understandable.
+* The secret word was not printed when you lost so i added a method to get the secret word (it sounds weird since it is secret but i thought the user would want to see the word if they lost). 
+* Added new javadoc comments and i think its done.
+* It seems that it always gives an error. You can never win because when you get to the last letter it doesnt get it.
+* Fixed it. This one was because i forgot(kinda) how substrings worked. i limited the for loop inn tryThis() so that it wouldnt reach length (like i < length - 1). I did this because i was gonna use i + 1 in the substring but because if you put substring(i, i+1) it wont check the i+1 so it wont give an error. I changed the ffor loop to i < length and it solved the problem.
+* Spent about 2-ish hours
+
+(3) Final Thoughts - Process Review
+
+* First off, i said that some of the codes did not include comments. I didnt have the hardest time w/o comments but it definetly might slow down the understanding process if the code had multiple hundreds of lines. I assume at a much more larger scale and with much more lines, not using comments would probably cause a lot of wasted time that would've been avoided if someone wrote a line of comment.
+* I also expected giving much more time into merging(it may be a lot if you compare it with other people but its less than what i expected it to take).
+* Props to our section, i think everyone did a great job since it was fairly easy to merge everything.
