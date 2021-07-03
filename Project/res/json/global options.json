@@ -1,9 +1,0 @@
-{
-"sleeping_time":[12,10,12,12],
-"temperature_for_smart_control":22,
-"notification_email":"egeozanozyedek@gmail.com",
-"send_email_notifications":true,
-"email_frequency":1,
-"intrusion_video_length":2,
-"google_drive_videos_size_limit":2,
-}
